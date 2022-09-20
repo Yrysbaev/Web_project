@@ -1,54 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Untitled</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <title>Personal Portfolio Website</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="footer-dark">
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>Services</h3>
-                        <ul>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Hosting</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>About</h3>
-                        <ul>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 item text">
-                        <h3>Company Name</h3>
-                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-                    </div>
-                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
-                </div>
-                <p class="copyright">Company Name © 2018</p>
+
+    <div class="hero">
+        <nav>
+            <img src="./img/logo1.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#blog">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <a href="#" class="btn">Contact</a>
+        </nav>
+
+        <div class="content">
+            <div class="content-items">
+                <span class="title">Mobile & Web Developer</span>
+                <h1>Hello, I’m <span>Maksatbek</span></h1>
+                <p>I’m working on a professional, visually sophisticated and technologically proficient, responsive and
+                    multi-functional React Template Imroz.</p>
+                <a href="./img/Resume.pdf" class="btn" download>Download CV</a>
             </div>
-        </footer>
+            <div class="heroImg">
+                <img src="./img/Photoforbg.jpeg" alt="">
+            </div>
+        </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <section class="blog" id="blog">
+        <h2 class="blogTitle">About Me</h2>
+        <p class="blogText">I am a second year bachelor of computer science student at Ala-Too University.</p>
+        <div class="blog_content">
+            <div class="blog_card">
+                <img src="./img/test.jpeg"
+                    alt="">
+                <div class="dark-bg"></div>
+                <div class="card_content">
+                    <p class="title">Life</p>
+                    <a href="#" class="card-link">Learn More...</a>
+                </div>
+            </div>
+            <div class="blog_card">
+                <img src="./img/Alatoo.jpeg
+                "
+                    alt="">
+                <div class="dark-bg"></div>
+                <div class="card_content">
+                    <p class="title">University</p>
+                    <a href="#" class="card-link">Learn More...</a>
+                </div>
+            </div>
+            <div class="blog_card">
+                <img src="./img/Github.png"
+                    alt="">
+                <div class="dark-bg"></div>
+                <div class="card_content">
+                    <p class="title">Projects</p>
+                    <a href="#" class="card-link">Learn More...</a>
+                </div>
+            </div>
+            <div class="blog_card">
+                <img src="https://cdn.portfoliobox.net/000_clients/000_org/salesite2021/images/cards/photographers@2x.webp"
+                    alt="">
+                <div class="dark-bg"></div>
+                <div class="card_content">
+                    <p class="title">Test</p>
+                    <a href="#" class="card-link">Learn More...</a>
+                </div>
+            </div>
+            <div class="blog_card">
+                <img src="https://cdn.portfoliobox.net/000_clients/000_org/salesite2021/images/cards/photographers@2x.webp"
+                    alt="">
+                <div class="dark-bg"></div>
+                <div class="card_content">
+                    <p class="title">Test</p>
+                    <a href="#" class="card-link">Learn More...</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
 </body>
 
 </html>
-
-<!-- Credit to https://epicbootstrap.com/snippets/footer-dark -->
