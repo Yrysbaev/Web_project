@@ -1,0 +1,308 @@
+.services-1 {
+  margin-bottom: 40px;
+  padding: 2em;
+  background: rgba(253, 71, 102, 0.62);
+  width: 100%;
+  -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+}
+.services-1 .icon {
+  display: block;
+  margin-bottom: 30px;
+}
+.services-1 .icon i {
+  font-size: 60px;
+  line-height: 1;
+  color: #fd4766;
+}
+.services-1 .desc h3 {
+  line-height: 1.3;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: relative;
+  color: black;
+}
+.services-1 .desc h3:after {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  right: 0;
+  content: "";
+  width: 30px;
+  height: 1px;
+  background: #fd4766;
+  margin: 0 auto;
+}
+.services-1 .desc h3 a {
+  color: black;
+}
+.services-1 .desc h4 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 18px;
+}
+.services-1 .desc span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #fd4766;
+}
+.services-1:hover {
+  background: #fd4766;
+}
+.services-1:hover .icon i {
+  color: black;
+}
+.services-1:hover h3 {
+  color: black;
+}
+.services-1:hover h3:after {
+  background: black;
+}
+
+.progress-wrap {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.progress-wrap h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.progress {
+  height: 10px;
+  box-shadow: none;
+  background: #1a1a1a;
+  overflow: visible;
+}
+
+.progress-bar {
+  background: #fd4766;
+  box-shadow: none;
+  font-size: 12px;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  position: relative;
+  overflow: visible;
+  border-radius: 2px;
+}
+.progress-bar:after {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  width: 34px;
+  height: 34px;
+  content: "";
+  background: #fd4766;
+  border-radius: 2px;
+  opacity: 0;
+}
+.progress-bar span {
+  position: absolute;
+  top: -38px;
+  right: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+.my-skills {
+  font-size: 44px;
+}
+
+.youtube {
+  margin-top: 50px;
+}
+.youtube .title {
+  font-size: 44px;
+  text-align: center;
+  margin: 16px 0;
+}
+.youtube .youtube-content {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.youtube .youtube-content .youtube-item {
+  margin-top: 12px;
+  width: 32%;
+  height: 250px;
+}
+@media screen and (max-width: 991px) {
+  .youtube .youtube-content .youtube-item {
+    width: 49%;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .youtube .youtube-content .youtube-item {
+    width: 100%;
+    height: 250px;
+  }
+}
+.youtube .youtube-content .youtube-item .youtube-item_vid {
+  width: 100%;
+  height: 100%;
+}
+
+.ftco-footer {
+  font-size: 16px;
+  background: white;
+  padding: 7em 0;
+  z-index: 0;
+}
+.ftco-footer .ftco-footer-logo {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.ftco-footer .ftco-footer-widget h2 {
+  font-weight: normal;
+  color: black;
+  margin-bottom: 40px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.ftco-footer .ftco-footer-widget ul li {
+  margin-bottom: 10px;
+}
+.ftco-footer .ftco-footer-widget ul li a {
+  color: rgba(0, 0, 0, 0.6);
+}
+.ftco-footer .ftco-footer-widget ul li a span {
+  color: rgba(0, 0, 0, 0.6);
+}
+.ftco-footer .ftco-footer-widget .btn-primary {
+  background: black !important;
+  border: 2px solid black !important;
+}
+.ftco-footer .ftco-footer-widget .btn-primary:hover {
+  background: black;
+  border: 2px solid black !important;
+}
+.ftco-footer p {
+  color: rgba(0, 0, 0, 0.7);
+}
+.ftco-footer a {
+  color: rgba(0, 0, 0, 0.7);
+}
+.ftco-footer a:hover {
+  color: black;
+}
+.ftco-footer .ftco-heading-2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: black;
+}
+
+.ftco-footer-social li {
+  list-style: none;
+  margin: 0 10px 0 0;
+  display: inline-block;
+}
+.ftco-footer-social li a {
+  height: 50px;
+  width: 50px;
+  display: block;
+  float: left;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  position: relative;
+}
+.ftco-footer-social li a span {
+  position: absolute;
+  font-size: 26px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ftco-footer-social li a:hover {
+  color: black;
+}
+
+.footer-small-nav > li {
+  display: inline-block;
+}
+.footer-small-nav > li a {
+  margin: 0 10px 10px 0;
+}
+.footer-small-nav > li a:hover, .footer-small-nav > li a:focus {
+  color: #fd4766;
+}
+
+@media screen and (max-width: 767px) {
+  .header-nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-btn {
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heroImg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content .content-items {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content .content-items h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+.content .content-items a {
+  padding: 12px 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav1 {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.blog_content {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 991px) {
+  .blog_content .blog_card {
+    width: 32%;
+    margin-top: 12px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .blog_content .blog_card {
+    width: 49%;
+    margin-top: 12px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .blog_content .blog_card {
+    width: 100%;
+    margin-top: 12px;
+    height: 250px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
