@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.feedback, .view-areas, .main-news {
+  .slick-arrow {
+    box-shadow: 0 0 5px #a9a3a3;
+    &:hover {
+
+    }
+
+    &:focus {
+
+    }
+  }
+}

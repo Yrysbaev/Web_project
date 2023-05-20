@@ -1,0 +1,32 @@
+.sport_areas {
+  margin-top: 54px;
+}
+.sport_areas .cards {
+  margin: 16px 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2%;
+}
+.sport_areas .cards .card {
+  width: 32%;
+  margin-top: 24px;
+  height: 370px;
+  border: 0.5px solid #bdbdbd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.sport_areas .cards .card:hover {
+  box-shadow: 0 3px 16px #c2bfbf;
+}
+@media screen and (max-width: 991px) {
+  .sport_areas .cards .card {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .sport_areas .cards .card {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=sportAreas.module.css.map */

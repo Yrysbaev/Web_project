@@ -1,0 +1,28 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .category {
+    text-decoration: none;
+    color: #333;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 24px;
+
+    &:hover {
+      color: #f46d6d;
+    }
+  }
+
+  .active {
+    color: #f46d6d;
+  }
+}

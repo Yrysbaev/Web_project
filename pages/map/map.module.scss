@@ -1,0 +1,21 @@
+.map_content {
+  padding: 70px 0;
+  position: relative;
+
+  .map_head {
+    @media screen and (max-width: 767px) {
+      margin-top: 24px;
+    }
+    input {
+      border: 0.5px solid #bdbdbd;
+      box-sizing: border-box;
+      border-radius: 10px;
+      padding: 8px 16px;
+      outline: none;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #495057;
+      width: 100%;
+    }
+  }
+}

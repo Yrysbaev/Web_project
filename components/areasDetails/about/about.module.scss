@@ -1,0 +1,96 @@
+.detailAbout {
+  .price {
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 1.25rem;
+    padding: 16px 0;
+    border-bottom: 1px solid #c4c4c4;
+  }
+
+  .address {
+    padding: 16px 0;
+    border-bottom: 1px solid #c4c4c4;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 1rem;
+
+    .address_content {
+      display: flex;
+      align-items: center;
+      column-gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .infrastructure {
+      display: flex;
+      align-items: center;
+      column-gap: 16px;
+      margin-bottom: 12px;
+
+      img {
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+      }
+    }
+
+    .icon {
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  .tel {
+    padding: 16px 0;
+    border-bottom: 1px solid #c4c4c4;
+
+    li {
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      column-gap: 16px;
+
+      .icon {
+        font-size: 24px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .social {
+    padding: 16px 0;
+    border-bottom: 1px solid #c4c4c4;
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+
+    a {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #09f112;
+    }
+
+    .whatsApp {
+
+    }
+
+    .instagram {
+      background: linear-gradient(50deg, #e36a6a, #d91fac);
+    }
+
+    .icon {
+      font-size: 24px;
+      font-weight: 600;
+      color: white;
+    }
+  }
+}

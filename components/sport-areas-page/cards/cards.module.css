@@ -1,0 +1,33 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2%;
+}
+@media screen and (max-width: 450px) {
+  .cards {
+    column-gap: 0;
+  }
+}
+.cards .card {
+  margin-top: 24px;
+  width: 32%;
+  height: 400px;
+  border: 0.5px solid #bdbdbd;
+  border-radius: 12px;
+  overflow: hidden;
+}
+@media screen and (max-width: 991px) {
+  .cards .card {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cards .card {
+    width: 100%;
+  }
+}
+.cards .card:hover {
+  box-shadow: 0 2px 15px #c4c1c1;
+}
+
+/*# sourceMappingURL=cards.module.css.map */

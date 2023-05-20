@@ -1,0 +1,80 @@
+.detailAbout .price {
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  font-size: 1.25rem;
+  padding: 16px 0;
+  border-bottom: 1px solid #c4c4c4;
+}
+.detailAbout .address {
+  padding: 16px 0;
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  font-size: 1rem;
+}
+.detailAbout .address .address_content {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-bottom: 16px;
+}
+.detailAbout .address .infrastructure {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-bottom: 12px;
+}
+.detailAbout .address .infrastructure img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.detailAbout .address .icon {
+  font-size: 24px;
+  font-weight: 600;
+}
+.detailAbout .tel {
+  padding: 16px 0;
+  border-bottom: 1px solid #c4c4c4;
+}
+.detailAbout .tel li {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.detailAbout .tel li .icon {
+  font-size: 24px;
+  font-weight: 600;
+}
+.detailAbout .social {
+  padding: 16px 0;
+  border-bottom: 1px solid #c4c4c4;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+.detailAbout .social a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #09f112;
+}
+.detailAbout .social .instagram {
+  background: linear-gradient(50deg, #e36a6a, #d91fac);
+}
+.detailAbout .social .icon {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+/*# sourceMappingURL=about.module.css.map */

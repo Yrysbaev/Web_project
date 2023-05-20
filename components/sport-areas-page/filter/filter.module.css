@@ -1,0 +1,103 @@
+.filter .category {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 0.5px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 8px 16px;
+  outline: none;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+}
+.filter .price {
+  margin-bottom: 24px;
+  margin-top: 24px;
+  background: #fff;
+  border: 0.5px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 24px 48px;
+}
+.filter .price .priceTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 14px;
+  letter-spacing: 0.2px;
+  color: #000;
+}
+.filter .price .from {
+  margin: 16px 0;
+}
+.filter .price .from .fromTitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 14px;
+  letter-spacing: 0.2px;
+  color: #000;
+  margin-bottom: 12px;
+}
+.filter .price .from input {
+  border: 0.5px solid #828282;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: block;
+  outline: none;
+  padding: 8px 16px;
+  width: 100%;
+}
+.filter .types {
+  margin-bottom: 24px;
+  margin-top: 24px;
+  background: #fff;
+  border: 0.5px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 24px 48px;
+  display: flex;
+  flex-direction: column;
+}
+.filter .types label {
+  margin: 4px 0;
+  display: flex;
+  align-items: center;
+}
+.filter .types label input {
+  margin-right: 16px;
+}
+.filter .infrastructures {
+  margin-bottom: 24px;
+  margin-top: 24px;
+  background: #fff;
+  border: 0.5px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 24px 48px;
+  display: flex;
+  flex-direction: column;
+}
+.filter .infrastructures label {
+  margin: 4px 0;
+  display: flex;
+  align-items: center;
+}
+.filter .infrastructures label input {
+  margin-right: 16px;
+}
+.filter .clear {
+  height: 44px;
+  width: 100%;
+  background: #f46d6d;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.11), -2px 0 5px rgba(0, 0, 0, 0.11);
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  border: none;
+}
+
+/*# sourceMappingURL=filter.module.css.map */

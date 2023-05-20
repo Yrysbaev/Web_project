@@ -1,0 +1,35 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #000;
+  margin: 0;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .head .title {
+    font-size: 22px;
+  }
+}
+.head .all_link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #f46d6d;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .head .all_link {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=sectionHead.module.css.map */

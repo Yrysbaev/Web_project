@@ -1,0 +1,70 @@
+.footer_bg {
+  background: #f46d6d;
+  padding: 70px 0;
+}
+.footer_bg .footer {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .footer_bg .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+.footer_bg .footer .footerLogo {
+  width: 135px;
+  height: 42px;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+.footer_bg .footer .menu {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+@media screen and (max-width: 767px) {
+  .footer_bg .footer .menu {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.footer_bg .footer .menu .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .footer_bg .footer .menu .link {
+    margin-bottom: 16px;
+  }
+}
+.footer_bg .footer .social_contact {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+.footer_bg .footer .social_contact .footerIcon {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+.footer_bg .foot {
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+.footer_bg .foot a {
+  font-size: 18px;
+  color: cyan;
+}
+
+/*# sourceMappingURL=footer.module.css.map */

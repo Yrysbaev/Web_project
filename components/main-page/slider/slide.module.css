@@ -1,0 +1,28 @@
+.slider .sliderItem {
+  height: 500px;
+}
+.slider .sliderItem .sliderImg {
+  height: 100%;
+  object-fit: cover;
+}
+.slider .sliderItem .sliderCaption {
+  bottom: 13.25rem;
+}
+.slider .sliderItem .sliderCaption h3 {
+  font-size: 40px;
+  color: #fff;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.slider .sliderItem .sliderCaption p {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/*# sourceMappingURL=slide.module.css.map */

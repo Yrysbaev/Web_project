@@ -1,0 +1,27 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.categories .category {
+  text-decoration: none;
+  color: #333;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 24px;
+}
+.categories .category:hover {
+  color: #f46d6d;
+}
+.categories .active {
+  color: #f46d6d;
+}
+
+/*# sourceMappingURL=categories.module.css.map */

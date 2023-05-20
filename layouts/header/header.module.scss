@@ -1,0 +1,125 @@
+.header {
+  .header_content {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header_logo {
+      img {
+        width: 135px;
+        height: 42px;
+        object-fit: cover;
+      }
+    }
+
+    .header_menu_content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      @media screen and (max-width: 991px) {
+        display: none;
+      }
+
+      .header_menu {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+
+        .header_menu_link {
+          padding: 10px 20px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: 0.2px;
+          color: black;
+          margin: 16px 0;
+
+          &:hover {
+            color: #F46D6D;
+          }
+        }
+
+        .active {
+          color: #f46d6d;
+        }
+      }
+
+      .header_profile {
+        img {
+          width: 42px;
+          height: 42px;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .mobileHeader {
+      display: flex;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: auto;
+      overflow: hidden;
+      justify-content: flex-start;
+      flex-direction: column;
+      align-items: center;
+      background: #f46d6d;
+      width: 0;
+      padding: 32px 0;
+      z-index: 3;
+      @media screen and (min-width: 992px) {
+        display: none;
+      }
+
+      .header_close_content {
+        padding: 24px;
+        position: relative;
+        width: 100%;
+
+        .header_close {
+          font-size: 24px;
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          right: 0;
+          cursor: pointer;
+        }
+
+        @media screen and (min-width: 992px) {
+          display: none;
+        }
+      }
+
+      .header_menu {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column;
+
+        .header_menu_link {
+          padding: 10px 20px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: 0.2px;
+          margin: 16px 0;
+          color: white;
+        }
+      }
+    }
+
+    .header_burger {
+      font-size: 24px;
+      font-weight: 900;
+      cursor: pointer;
+      @media screen and (min-width: 992px) {
+        display: none;
+      }
+    }
+  }
+}

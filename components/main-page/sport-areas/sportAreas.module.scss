@@ -1,0 +1,30 @@
+.sport_areas {
+  margin-top: 54px;
+
+  .cards {
+    margin: 16px 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+
+    .card {
+      width: 32%;
+      margin-top: 24px;
+      height: 370px;
+      border: 0.5px solid #bdbdbd;
+      border-radius: 10px;
+      overflow: hidden;
+
+      &:hover {
+        box-shadow: 0 3px 16px #c2bfbf;
+      }
+
+      @media screen and (max-width: 991px) {
+        width: 48%;
+      }
+      @media screen and (max-width: 575px) {
+        width: 100%;
+      }
+    }
+  }
+}
