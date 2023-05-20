@@ -1,9 +1,8 @@
 <h1 align="center">Hi 👋, I'm Maksatbek Yrysbaev</h1>
 <h3 align="center">A passionate Mobile and Web developer from Kyrgyzstan</h3>
 
-- 🔭 I’m currently working on [Portfolio](https://github.com/Yrysbaev/Web_project.git)
+- 🔭 I’m currently working on [My first professional project](https://github.com/Yrysbaev/Web_project.git)
 
-<img src='for_GitHub.png'>
 
 - 🌱 I’m currently learning **HTML and CSS**
 
