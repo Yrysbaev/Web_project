@@ -3,8 +3,19 @@
 
 - 🔭 I’m currently working on [My first professional project](https://github.com/Yrysbaev/Web_project.git)
 
+<img src="First_page.png">
 
-- 🌱 I’m currently learning **HTML and CSS**
+- I have some problems with img in my project but I will fix it soon.
+
+<img src="Second.png">
+<img src="Third.png">
+
+- And You can aslo find the place that you want. 
+
+<img src="Last.png">
+
+
+- 🌱 I’m currently learning **HTML and CSS and Javascript**
 
 - 📫 How to reach me **mzamirbekovic02@gmail.com**
 
